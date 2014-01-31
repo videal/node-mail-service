@@ -1,0 +1,21 @@
+{
+  "name": "node-mail-sender",
+  "description": "Services to send e-mails",
+  "version": "0.0.1",
+  "private": true,
+  "author": {
+    "name": "Videal LLC"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "express": "3.4.8",
+    "jade": "*",
+    "nodemailer": ">=0.6.0"
+  },
+  "devDependencies": {
+    "nodeunit": "*"
+  }
+}
